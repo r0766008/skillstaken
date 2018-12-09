@@ -4,6 +4,9 @@
     background-color: red;
     color: yellow;
 }
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+}
 h2,
 p {
     padding: 10px 0px;

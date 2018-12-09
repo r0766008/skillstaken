@@ -15,3 +15,6 @@ nav {
 #image {
     background-image: url(../afbeeldingen/medium.jpg)
 }
+h1, h2 {
+    font-family: 'Gamja Flower', cursive;
+}
