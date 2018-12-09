@@ -8,8 +8,8 @@
     background-color: black;
     color: white;
 }
-nav {
-    color: dimgray;
+nav, nav a, nav ul, nav li {
+    background-color: dimgray;
 }
 
 #image {

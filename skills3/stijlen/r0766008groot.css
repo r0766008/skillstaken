@@ -1,14 +1,21 @@
-#primair, #gaming {
+#primair,
+#gaming {
     display: none;
 }
+
 #luxe {
     display: block;
 }
+
 * {
     background-color: white;
     color: black;
 }
-nav {
+
+nav,
+nav a,
+nav ul,
+nav li {
     background-color: gray;
 }
 
@@ -16,6 +23,24 @@ nav {
     background-image: url(../afbeeldingen/groot.jpg)
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Gamja Flower', cursive;
+}
+
+#container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.geheel {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.geheel > p {
+    background-color: #f1f1f1;
+    width: 300px;
+    margin: 50px;
+    text-align: center;
 }
