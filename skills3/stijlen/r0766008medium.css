@@ -1,0 +1,17 @@
+#primair, #luxe {
+    display: none;
+}
+#gaming {
+    display: block;
+}
+* {
+    background-color: black;
+    color: white;
+}
+nav {
+    color: dimgray;
+}
+
+#image {
+    background-image: url(../afbeeldingen/medium.jpg)
+}

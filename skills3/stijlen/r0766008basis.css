@@ -1,28 +1,53 @@
 * {
- padding: 0;
- margin: 0;
+    padding: 0;
+    margin: 0;
+    background-color: red;
+    color: yellow;
 }
 h2,
 p {
- padding: 10px 0px;
+    padding: 10px 0px;
 }
+
 #image {
- height: 200px;
- background-position: center center;
- background-repeat: no-repeat;
+    height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
+
 #container {
- background-color: #fff;
- color: #000;
+    background-color: #fff;
+    color: #000;
 }
+
+nav {
+    background-color: blue;
+}
+
 nav a {
- text-decoration: none;
+    text-decoration: none;
 }
+
 nav a:hover {
- text-decoration: underline;
+    text-decoration: underline;
 }
+
 footer {
- text-align: right;
- font-weight: bold;
- padding: 10px;
+    text-align: right;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#gaming,
+#luxe {
+    display: none;
+}
+
+#primair {
+    display: block;
+}
+
+
+#image {
+    background-image: url(../afbeeldingen/basis.jpg)
 }

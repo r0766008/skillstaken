@@ -1,0 +1,17 @@
+#primair, #gaming {
+    display: none;
+}
+#luxe {
+    display: block;
+}
+* {
+    background-color: white;
+    color: black;
+}
+nav {
+    background-color: gray;
+}
+
+#image {
+    background-image: url(../afbeeldingen/groot.jpg)
+}
